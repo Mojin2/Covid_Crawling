@@ -163,9 +163,7 @@ def all_count(js_file,array):
                 for y in range(1+5*j,6+5*j):
                     array[x][y] = number_array[list[j]][x][y-5*j]
 
-def clean_array(array):
 
-                
 # 지역별 전날대비 확진자 수 증감 검색 함수
 def count_change(js_file,search_region):
     with open (js_file,"r",encoding="utf-8") as f:
